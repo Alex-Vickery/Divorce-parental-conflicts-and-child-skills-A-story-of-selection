@@ -1,7 +1,7 @@
 # Divorce, parental conflicts and child skills: A story of selection
 
 
-This repository contains the code and data accompanying the paper "Divorce, parental conflicts and child skills: A story of selection", written by [Gloria Moroni]([https://www.dananderberg.com/](https://gloriamoroni.wixsite.com/gloriamoroni/about)) &amp; Alexander Vickery, published in [Labour Economics](https://doi.org/10.1016/j.euroecorev.2021.103774) in September 2021.
+This repository contains the code and data accompanying the paper "Divorce, parental conflicts and child skills: A story of selection", written by [Gloria Moroni]([https://www.dananderberg.com/](https://gloriamoroni.wixsite.com/gloriamoroni/about)) &amp; Alexander Vickery, published in [Labour Economics](https://doi.org/10.1016/j.euroecorev.2021.103774) in December 2025.
 
 ## Links to the Paper
 The paper and supplementary material are available at [https://doi.org/10.1016/j.euroecorev.2021.103774](https://doi.org/10.1016/j.labeco.2025.102830).
