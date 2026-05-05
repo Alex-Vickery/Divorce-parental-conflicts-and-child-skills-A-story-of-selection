@@ -105,9 +105,3 @@ replication_package/
 | Table A.12      | `analysis/make_tabs.m`                          | `output/tables/tfp_emo.tex`                                          |
 | Table A.13      | `analysis/make_tabs.m`                          | `output/tables/unob_het.tex`                                         |
 | Table A.14      | `analysis/domodel_summary.m` → `divorce_gaps.m` | `output/tables/divorce_gaps.tex`                                     |
-
-## Notes
-
-- **Bootstrap:** Standard errors are based on 250 cluster-bootstrap samples (clustered on child sex x divorce status).
-- **Seed:** `rng(10)` is set in `readdata.m` before drawing bootstrap indices, to ensure reproducibility.
-- **Estimation time:** Each bootstrap sample requires approximately 1–5 minutes depending on your machine.
