@@ -1,14 +1,12 @@
-## Moroni & Vickery (2025): Divorce, parental conflicts and child skills:
-A story of selection.
+## Moroni & Vickery (2025): Divorce, parental conflicts and child skills: A story of selection.
 
 ![MATLAB](https://img.shields.io/badge/MATLAB-%23e76a24.svg?style=for-the-badge&logo=matlab&logoColor=white)
 
 This repository contains the replication code for:
 
-> Moroni, G. & Vickery, A. (2025). *Divorce, parental conflicts and child skills:
-A story of selection*, authored by [Gloria Moroni](https://gloriamoroni.wixsite.com/gloriamoroni/research) &amp; [Alexander Vickery](https://www.alexander-vickery.com/), published in the [Labour Economics](https://doi.org/10.1016/j.labeco.2025.102830) in December 2025.
+Moroni, G. & Vickery, A. (2025). _Divorce, parental conflicts and child skills: A story of selection_, authored by [Gloria Moroni](https://gloriamoroni.wixsite.com/gloriamoroni/research) &amp; [Alexander Vickery](https://www.alexander-vickery.com/), published in the [Labour Economics](https://doi.org/10.1016/j.labeco.2025.102830) in December 2025.
 
-This paper uses data from the UK Millennium Cohort Study (MCS) to study how parental divorce in early childhood affects a child's skill development. 
+This paper uses data from the UK Millennium Cohort Study (MCS) to study how parental divorce in early childhood affects a child's skill development.
 
 ---
 
@@ -22,7 +20,7 @@ This paper uses data from the UK Millennium Cohort Study (MCS) to study how pare
 
 The analysis uses **UK Millennium Cohort Study (MCS)** data from waves 1–5 (children born 2000–01, followed at ages 3, 5, 7, and 11).
 
-Data access is **restricted** and must be obtained separately:
+Access to the MCS is **restricted** and must be obtained separately:
 
 1. Register at the [UK Data Service](https://ukdataservice.ac.uk/),
 2. Apply for access to the MCS datasets,
@@ -56,18 +54,18 @@ All outputs will be saved under `output/`.
 
 ## Output Map
 
-| Paper Output | Script | Output File |
-|---|---|---|
-| Figure 1 | `analysis/docfact.m` | `output/figures/cog_cfact_age*.pdf`, `emo_cfact_age*.pdf` |
-| Table 5 | `analysis/make_tabs.m` | `output/tables/prod_f.tex` |
-| Table 6 | `analysis/make_tabs.m` | `output/tables/div_con.tex` |
-| Figures A.3–A.4 | `analysis/domodel_summary.m` -> `model_fit.m` | `output/figures/model_fit_divorce*.pdf`, `model_fit_no_divorce*.pdf` |
-| Figures A.5–A.6 | `analysis/docfact.m` | `output/figures/cog_cfact_1_age*.pdf`, `emo_cfact_1_*.pdf` |
-| Figures A.7–A.8 | `analysis/docfact.m` | `output/figures/cog_cfact_1_male_age*.pdf`, `*_female_*.pdf` |
-| Table A.11 | `analysis/make_tabs.m` | `output/tables/tfp_cog.tex` |
-| Table A.12 | `analysis/make_tabs.m` | `output/tables/tfp_emo.tex` |
-| Table A.13 | `analysis/make_tabs.m` | `output/tables/unob_het.tex` |
-| Table A.14 | `analysis/domodel_summary.m` → `divorce_gaps.m` | `output/tables/divorce_gaps.tex` |
+| Paper Output    | Script                                          | Output File                                                          |
+| --------------- | ----------------------------------------------- | -------------------------------------------------------------------- |
+| Figure 1        | `analysis/docfact.m`                            | `output/figures/cog_cfact_age*.pdf`, `emo_cfact_age*.pdf`            |
+| Table 5         | `analysis/make_tabs.m`                          | `output/tables/prod_f.tex`                                           |
+| Table 6         | `analysis/make_tabs.m`                          | `output/tables/div_con.tex`                                          |
+| Figures A.3–A.4 | `analysis/domodel_summary.m` -> `model_fit.m`   | `output/figures/model_fit_divorce*.pdf`, `model_fit_no_divorce*.pdf` |
+| Figures A.5–A.6 | `analysis/docfact.m`                            | `output/figures/cog_cfact_1_age*.pdf`, `emo_cfact_1_*.pdf`           |
+| Figures A.7–A.8 | `analysis/docfact.m`                            | `output/figures/cog_cfact_1_male_age*.pdf`, `*_female_*.pdf`         |
+| Table A.11      | `analysis/make_tabs.m`                          | `output/tables/tfp_cog.tex`                                          |
+| Table A.12      | `analysis/make_tabs.m`                          | `output/tables/tfp_emo.tex`                                          |
+| Table A.13      | `analysis/make_tabs.m`                          | `output/tables/unob_het.tex`                                         |
+| Table A.14      | `analysis/domodel_summary.m` → `divorce_gaps.m` | `output/tables/divorce_gaps.tex`                                     |
 
 ---
 
@@ -77,7 +75,7 @@ All outputs will be saved under `output/`.
 replication_package/
 ├── run_all.m          Master script — runs all replication steps in order.
 ├── README.md          This readme file.
-├── .gitignore         
+├── .gitignore
 │
 ├── data/              Data preparation scripts
 │   ├── DATA_README.md Instructions for obtaining the MCS data.
