@@ -1,4 +1,4 @@
-## Moroni & Vickery (2025): Divorce, parental conflicts and child skills: A story of selection.
+## Divorce, parental conflicts and child skills: A story of selection.
 
 ![MATLAB](https://img.shields.io/badge/MATLAB-%23e76a24.svg?style=for-the-badge&logo=matlab&logoColor=white)
 
@@ -7,6 +7,10 @@ This repository contains the replication code for:
 Moroni, G. & Vickery, A. (2025). _Divorce, parental conflicts and child skills: A story of selection_, authored by [Gloria Moroni](https://gloriamoroni.wixsite.com/gloriamoroni/research) &amp; [Alexander Vickery](https://www.alexander-vickery.com/), published in the [Labour Economics](https://doi.org/10.1016/j.labeco.2025.102830) in December 2025.
 
 This paper uses data from the UK Millennium Cohort Study (MCS) to study how parental divorce in early childhood affects a child's skill development.
+
+## Links to the Paper
+
+The paper and supplementary material are available at [https://doi.org/10.1016/j.labeco.2025.102830](https://doi.org/10.1016/j.labeco.2025.102830).
 
 ---
 
