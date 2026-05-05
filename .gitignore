@@ -1,0 +1,10 @@
+# Data (access restricted — obtain from UK Data Service)
+data/sample_data.csv
+data/*.mat
+
+# Estimated parameters (computationally generated — run dotranslog.m)
+output/estimates/
+
+# Generated outputs (reproduced by running run_all.m)
+output/figures/
+output/tables/
