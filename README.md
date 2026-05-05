@@ -10,15 +10,11 @@ This paper uses data from the UK Millennium Cohort Study (MCS) to study how pare
 
 ## Links to the Paper
 
-The paper and supplementary material are available at [https://doi.org/10.1016/j.labeco.2025.102830](https://doi.org/10.1016/j.labeco.2025.102830).
-
----
+The paper is available at [https://doi.org/10.1016/j.labeco.2025.102830](https://doi.org/10.1016/j.labeco.2025.102830).
 
 ## Software Requirements
 
 - **MATLAB** (tested on R2022b and later)
-
----
 
 ## Data
 
@@ -36,8 +32,6 @@ Once obtained, place the prepared dataset at:
 data/sample_data.csv
 ```
 
----
-
 ## Replication Instructions
 
 1. Clone or download this repository,
@@ -54,26 +48,7 @@ All outputs will be saved under `output/`.
 
 > **Note:** Step 2 (EM estimation over 250 bootstrap samples) is computationally intensive and can take several hours to complete. Steps 3–5 (creating output tables and figures) can be run independently once estimation is complete by running the individual scripts in `analysis/`.
 
----
-
-## Output Map
-
-| Paper Output    | Script                                          | Output File                                                          |
-| --------------- | ----------------------------------------------- | -------------------------------------------------------------------- |
-| Figure 1        | `analysis/docfact.m`                            | `output/figures/cog_cfact_age*.pdf`, `emo_cfact_age*.pdf`            |
-| Table 5         | `analysis/make_tabs.m`                          | `output/tables/prod_f.tex`                                           |
-| Table 6         | `analysis/make_tabs.m`                          | `output/tables/div_con.tex`                                          |
-| Figures A.3–A.4 | `analysis/domodel_summary.m` -> `model_fit.m`   | `output/figures/model_fit_divorce*.pdf`, `model_fit_no_divorce*.pdf` |
-| Figures A.5–A.6 | `analysis/docfact.m`                            | `output/figures/cog_cfact_1_age*.pdf`, `emo_cfact_1_*.pdf`           |
-| Figures A.7–A.8 | `analysis/docfact.m`                            | `output/figures/cog_cfact_1_male_age*.pdf`, `*_female_*.pdf`         |
-| Table A.11      | `analysis/make_tabs.m`                          | `output/tables/tfp_cog.tex`                                          |
-| Table A.12      | `analysis/make_tabs.m`                          | `output/tables/tfp_emo.tex`                                          |
-| Table A.13      | `analysis/make_tabs.m`                          | `output/tables/unob_het.tex`                                         |
-| Table A.14      | `analysis/domodel_summary.m` → `divorce_gaps.m` | `output/tables/divorce_gaps.tex`                                     |
-
----
-
-## Directory Structure
+## Replication Package Directory Structure
 
 ```
 replication_package/
@@ -116,7 +91,20 @@ replication_package/
     └── tables/        .tex files for each table.
 ```
 
----
+## Outputs
+
+| Paper Output    | Script                                          | Output File                                                          |
+| --------------- | ----------------------------------------------- | -------------------------------------------------------------------- |
+| Figure 1        | `analysis/docfact.m`                            | `output/figures/cog_cfact_age*.pdf`, `emo_cfact_age*.pdf`            |
+| Table 5         | `analysis/make_tabs.m`                          | `output/tables/prod_f.tex`                                           |
+| Table 6         | `analysis/make_tabs.m`                          | `output/tables/div_con.tex`                                          |
+| Figures A.3–A.4 | `analysis/domodel_summary.m` -> `model_fit.m`   | `output/figures/model_fit_divorce*.pdf`, `model_fit_no_divorce*.pdf` |
+| Figures A.5–A.6 | `analysis/docfact.m`                            | `output/figures/cog_cfact_1_age*.pdf`, `emo_cfact_1_*.pdf`           |
+| Figures A.7–A.8 | `analysis/docfact.m`                            | `output/figures/cog_cfact_1_male_age*.pdf`, `*_female_*.pdf`         |
+| Table A.11      | `analysis/make_tabs.m`                          | `output/tables/tfp_cog.tex`                                          |
+| Table A.12      | `analysis/make_tabs.m`                          | `output/tables/tfp_emo.tex`                                          |
+| Table A.13      | `analysis/make_tabs.m`                          | `output/tables/unob_het.tex`                                         |
+| Table A.14      | `analysis/domodel_summary.m` → `divorce_gaps.m` | `output/tables/divorce_gaps.tex`                                     |
 
 ## Notes
 
